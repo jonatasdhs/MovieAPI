@@ -251,3 +251,7 @@ C:\Users\Jonatas\Documents\Dev\c#\MovieApi\obj\Debug\net8.0\refint\MovieApi.dll
 C:\Users\Jonatas\Documents\Dev\c#\MovieApi\obj\Debug\net8.0\MovieApi.pdb
 C:\Users\Jonatas\Documents\Dev\c#\MovieApi\obj\Debug\net8.0\MovieApi.genruntimeconfig.cache
 C:\Users\Jonatas\Documents\Dev\c#\MovieApi\obj\Debug\net8.0\ref\MovieApi.dll
+C:\Users\Jonatas\Documents\Dev\c#\MovieApi\bin\Debug\net8.0\Isopoh.Cryptography.Argon2.dll
+C:\Users\Jonatas\Documents\Dev\c#\MovieApi\bin\Debug\net8.0\Isopoh.Cryptography.Blake2b.dll
+C:\Users\Jonatas\Documents\Dev\c#\MovieApi\bin\Debug\net8.0\Isopoh.Cryptography.SecureArray.dll
+C:\Users\Jonatas\Documents\Dev\c#\MovieApi\obj\Debug\net8.0\MovieApi.sourcelink.json

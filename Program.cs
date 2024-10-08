@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using MovieApi.DataContext;
 using MovieApi.Models;
 using MovieApi.MovieService;
+using MovieApi.UsersService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +13,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IMoviesInterface, MoviesService>();
+builder.Services.AddScoped<IUsersInterface, UsersService>();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
